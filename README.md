@@ -20,6 +20,20 @@ I am developing reproducible bioinformatics workflows that connect sequencing da
 
 **Professional profile:** [LinkedIn](https://www.linkedin.com/in/duaa-abdulmohsin)
 
+## Published Research
+
+**First-author peer-reviewed publication | 2025**
+
+**Research area:** Cadmium toxicity, L-carnitine, and liver gene expression in rat models.
+
+Published in *Bangladesh Journal of Medical Science*, Volume 24, Issue 2 (2025).
+
+This experimental research involved molecular biology, gene-expression analysis, statistical analysis, and scientific interpretation.
+
+My current bioinformatics work builds on this experimental research background, extending my skills into computational genomics and transcriptomics.
+
+---
+
 ## Research Projects
 
 | Project | Research focus | Methods | Status |
