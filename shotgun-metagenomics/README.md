@@ -108,3 +108,17 @@ from the public repository.
 ### Project status
 
 Core analysis completed. Scientific review and documentation ongoing.
+
+## Sequencing Quality and Host Screening
+
+The preprocessing workflow retained 27,278,332 of
+27,285,314 original reads. The post-filtering Q30 rate
+was 91.14%.
+
+Host-reference screening retained 13,639,162 of
+13,639,166 read pairs. Only four pairs were excluded.
+This unusually low alignment rate requires cautious
+interpretation and does not establish the absence
+of human-origin sequences.
+
+[Full quality-control assessment](results/fastp/qc_summary.md)

@@ -44,7 +44,10 @@ Failure to align to GRCh38 does not demonstrate
 complete absence of human DNA or prove that a read
 is microbial.
 
-## Next Step
+## Subsequent Analysis
 
-Perform microbial taxonomic profiling on the
-host-filtered paired-end reads.
+Taxonomic profiling was completed using Sylph and GTDB R232.
+See the project README and taxonomic profiling results.
+
+The unusually low human alignment rate remains a
+methodological limitation requiring cautious interpretation.
