@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="900" viewBox="0 0 1100 900">
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="52" font-size="25" font-weight="bold" font-family="Arial">Top 20 microbial species</text>
+<text x="45" y="82" font-size="15" fill="#555" font-family="Arial">Human gut shotgun metagenomics | SRR6915205</text>
+<text x="325" y="130" text-anchor="end" font-size="15" font-family="Arial">Alistipes putredinis</text>
+<rect x="340" y="115" width="513.0" height="21" rx="3" fill="#246a83"/>
+<text x="863.0" y="131" font-size="14" font-family="Arial">7.65%</text>
+<text x="325" y="166" text-anchor="end" font-size="15" font-family="Arial">Prevotella sp905214625</text>
+<rect x="340" y="151" width="497.5" height="21" rx="3" fill="#246a83"/>
+<text x="847.5" y="167" font-size="14" font-family="Arial">7.42%</text>
+<text x="325" y="202" text-anchor="end" font-size="15" font-family="Arial">Phocaeicola vulgatus</text>
+<rect x="340" y="187" width="373.1" height="21" rx="3" fill="#246a83"/>
+<text x="723.1" y="203" font-size="14" font-family="Arial">5.57%</text>
+<text x="325" y="238" text-anchor="end" font-size="15" font-family="Arial">Bacteroides uniformis</text>
+<rect x="340" y="223" width="326.5" height="21" rx="3" fill="#246a83"/>
+<text x="676.5" y="239" font-size="14" font-family="Arial">4.87%</text>
+<text x="325" y="274" text-anchor="end" font-size="15" font-family="Arial">Bacteroides stercoris_A</text>
+<rect x="340" y="259" width="310.9" height="21" rx="3" fill="#246a83"/>
+<text x="660.9" y="275" font-size="14" font-family="Arial">4.64%</text>
+<text x="325" y="310" text-anchor="end" font-size="15" font-family="Arial">Bacteroides stercoris</text>
+<rect x="340" y="295" width="248.7" height="21" rx="3" fill="#246a83"/>
+<text x="598.7" y="311" font-size="14" font-family="Arial">3.71%</text>
+<text x="325" y="346" text-anchor="end" font-size="15" font-family="Arial">Vescimonas sanitatis</text>
+<rect x="340" y="331" width="185.6" height="21" rx="3" fill="#246a83"/>
+<text x="535.6" y="347" font-size="14" font-family="Arial">2.77%</text>
+<text x="325" y="382" text-anchor="end" font-size="15" font-family="Arial">Fimenecus sp000432435</text>
+<rect x="340" y="367" width="177.0" height="21" rx="3" fill="#246a83"/>
+<text x="527.0" y="383" font-size="14" font-family="Arial">2.64%</text>
+<text x="325" y="418" text-anchor="end" font-size="15" font-family="Arial">Parabacteroides merdae</text>
+<rect x="340" y="403" width="152.3" height="21" rx="3" fill="#246a83"/>
+<text x="502.3" y="419" font-size="14" font-family="Arial">2.27%</text>
+<text x="325" y="454" text-anchor="end" font-size="15" font-family="Arial">Acetatifactor hominis</text>
+<rect x="340" y="439" width="139.9" height="21" rx="3" fill="#246a83"/>
+<text x="489.9" y="455" font-size="14" font-family="Arial">2.09%</text>
+<text x="325" y="490" text-anchor="end" font-size="15" font-family="Arial">Alistipes shahii</text>
+<rect x="340" y="475" width="137.1" height="21" rx="3" fill="#246a83"/>
+<text x="487.1" y="491" font-size="14" font-family="Arial">2.04%</text>
+<text x="325" y="526" text-anchor="end" font-size="15" font-family="Arial">Phascolarctobacterium_A succinatutens</text>
+<rect x="340" y="511" width="123.9" height="21" rx="3" fill="#246a83"/>
+<text x="473.9" y="527" font-size="14" font-family="Arial">1.85%</text>
+<text x="325" y="562" text-anchor="end" font-size="15" font-family="Arial">Acetatifactor intestinalis</text>
+<rect x="340" y="547" width="107.3" height="21" rx="3" fill="#246a83"/>
+<text x="457.3" y="563" font-size="14" font-family="Arial">1.60%</text>
+<text x="325" y="598" text-anchor="end" font-size="15" font-family="Arial">Hominicoprocola sp934835795</text>
+<rect x="340" y="583" width="102.3" height="21" rx="3" fill="#246a83"/>
+<text x="452.3" y="599" font-size="14" font-family="Arial">1.53%</text>
+<text x="325" y="634" text-anchor="end" font-size="15" font-family="Arial">Gemmiger qucibialis</text>
+<rect x="340" y="619" width="95.4" height="21" rx="3" fill="#246a83"/>
+<text x="445.4" y="635" font-size="14" font-family="Arial">1.42%</text>
+<text x="325" y="670" text-anchor="end" font-size="15" font-family="Arial">Scatocola faecipullorum</text>
+<rect x="340" y="655" width="92.4" height="21" rx="3" fill="#246a83"/>
+<text x="442.4" y="671" font-size="14" font-family="Arial">1.38%</text>
+<text x="325" y="706" text-anchor="end" font-size="15" font-family="Arial">Parabacteroides distasonis</text>
+<rect x="340" y="691" width="91.4" height="21" rx="3" fill="#246a83"/>
+<text x="441.4" y="707" font-size="14" font-family="Arial">1.36%</text>
+<text x="325" y="742" text-anchor="end" font-size="15" font-family="Arial">Faecousia sp000434635</text>
+<rect x="340" y="727" width="87.2" height="21" rx="3" fill="#246a83"/>
+<text x="437.2" y="743" font-size="14" font-family="Arial">1.30%</text>
+<text x="325" y="778" text-anchor="end" font-size="15" font-family="Arial">UBA11524 sp000437595</text>
+<rect x="340" y="763" width="86.5" height="21" rx="3" fill="#246a83"/>
+<text x="436.5" y="779" font-size="14" font-family="Arial">1.29%</text>
+<text x="325" y="814" text-anchor="end" font-size="15" font-family="Arial">Bacteroides fragilis</text>
+<rect x="340" y="799" width="81.3" height="21" rx="3" fill="#246a83"/>
+<text x="431.3" y="815" font-size="14" font-family="Arial">1.21%</text>
+<text x="340" y="865" font-size="14" fill="#555" font-family="Arial">Estimated relative abundance (%) | Sylph / GTDB R232</text>
+</svg>

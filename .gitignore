@@ -23,3 +23,9 @@ __pycache__/
 # System files
 .DS_Store
 Thumbs.db
+# Temporary processing directories
+**/temp/
+# Generated sequencing data
+**/processed_data/
+
+**/host_removal/*.bam

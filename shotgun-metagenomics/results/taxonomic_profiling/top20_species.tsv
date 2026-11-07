@@ -1,0 +1,21 @@
+clade_name	relative_abundance	sequence_abundance	ANI (if strain-level)	Coverage (if strain-level)
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes putredinis	7.6527	6.0706	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Prevotella|s__Prevotella sp905214625	7.4208	7.996	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola vulgatus	5.5656	9.215	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides uniformis	4.8699	7.0115	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides stercoris_A	4.638	4.2924	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides stercoris	3.7104	4.6249	NA	NA
+d__Bacteria|p__Bacillota|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Vescimonas|s__Vescimonas sanitatis	2.7679	2.3156	NA	NA
+d__Bacteria|p__Bacillota|c__Clostridia|o__Oscillospirales|f__Acutalibacteraceae|g__Fimenecus|s__Fimenecus sp000432435	2.6407	1.5458	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides|s__Parabacteroides merdae	2.2721	3.0932	NA	NA
+d__Bacteria|p__Bacillota|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor hominis	2.0871	2.5155	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes shahii	2.0446	2.4224	NA	NA
+d__Bacteria|p__Bacillota|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium_A|s__Phascolarctobacterium_A succinatutens	1.8484	1.2198	NA	NA
+d__Bacteria|p__Bacillota|c__Clostridia|o__Lachnospirales|f__Lachnospiraceae|g__Acetatifactor|s__Acetatifactor intestinalis	1.6009	1.479	NA	NA
+d__Bacteria|p__Bacillota|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Hominicoprocola|s__Hominicoprocola sp934835795	1.5253	1.4086	NA	NA
+d__Bacteria|p__Bacillota|c__Clostridia|o__Oscillospirales|f__Ruminococcaceae|g__Gemmiger|s__Gemmiger qucibialis	1.4224	1.1184	NA	NA
+d__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__RF32|f__CAG-239|g__Scatocola|s__Scatocola faecipullorum	1.379	0.7456	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Tannerellaceae|g__Parabacteroides|s__Parabacteroides distasonis	1.3637	2.0405	NA	NA
+d__Bacteria|p__Bacillota|c__Clostridia|o__Oscillospirales|f__Oscillospiraceae|g__Faecousia|s__Faecousia sp000434635	1.3009	1.0126	NA	NA
+d__Bacteria|p__Bacillota|c__Clostridia|o__Christensenellales|f__Aristaeellaceae|g__UBA11524|s__UBA11524 sp000437595	1.2907	1.1705	NA	NA
+d__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides fragilis	1.2124	1.9764	NA	NA
