@@ -47,7 +47,7 @@ The sample originates from a study investigating fecal metagenomes in colorectal
 5. Relative abundance analysis
 6. Data visualization and biological interpretation
 
-Software versions, commands, parameters, and reference database details will be documented during execution.
+
 
 ## Scientific Considerations
 
@@ -122,3 +122,7 @@ interpretation and does not establish the absence
 of human-origin sequences.
 
 [Full quality-control assessment](results/fastp/qc_summary.md)
+
+## Reproducibility Documentation
+
+[Reproducibility Documentation](docs/REPRODUCIBILITY.md)

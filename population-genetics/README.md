@@ -75,3 +75,7 @@ Run from the population-genetics directory:
 4. Run `python3 scripts/03_plot_fst.py`
 
 Input data must include the chromosome 22 VCF and matching population metadata. The FST script uses `results/fst/superpop.tsv`.
+
+## Reproducibility Documentation
+
+[Reproducibility Documentation](docs/REPRODUCIBILITY.md)
