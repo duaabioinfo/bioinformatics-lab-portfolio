@@ -29,3 +29,11 @@ Thumbs.db
 **/processed_data/
 
 **/host_removal/*.bam
+
+population-genetics/results/qc/*.pgen
+population-genetics/results/qc/*.pvar
+population-genetics/results/qc/*.psam
+population-genetics/results/qc/*.prune.out
+rnaseq/references/
+rnaseq/raw_data/
+rnaseq/data/raw/
