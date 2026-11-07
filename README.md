@@ -6,6 +6,17 @@ A hands-on bioinformatics portfolio focused on applying computational methods to
 
 My academic background is in Molecular Biology and Medical Biology & Genetics (MSc). These projects document my independent development of practical skills in sequencing-data analysis, statistical genomics, research reproducibility, and biological interpretation.
 
+## Research Highlights
+
+- **First-author publication (2025):** Experimental investigation of cadmium, L-carnitine, and gene expression in rat liver tissue.
+- **Shotgun metagenomics:** Independently processed 27.3 million sequencing reads through quality control, preprocessing, host-reference screening, and microbial profiling.
+- **Population genomics:** Analyzed chromosome 22 genetic variation across 2,504 individuals, including PCA and pairwise FST.
+- **Research reproducibility:** Developed and documented Bash and Python analysis workflows with scientific figures and results.
+
+[View my research publication](https://doi.org/10.3329/bjms.v24i2.81728)
+
+---
+
 ## About the Researcher
 
 **Duaa Abdulmohsin | MSc Medical Biology & Genetics**
