@@ -14,6 +14,8 @@ molecular genetics, and computational biology.
 
 ---
 
+**Project scope:** Independent, practice-based bioinformatics analyses of public datasets, developed while building computational skills.
+
 ## Research Projects
 
 ### 01 · Human Gut Shotgun Metagenomics
