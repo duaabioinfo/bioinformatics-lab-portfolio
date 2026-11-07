@@ -64,3 +64,14 @@ Requires PLINK2, Python 3, the original Phase 3 chromosome 22 VCF, and the match
 ## Detailed Results
 
 [Analysis summary](results/project3_summary.md)
+
+## FST Reproduction
+
+Run from the population-genetics directory:
+
+1. Run `bash scripts/01_population_pca.sh`
+2. Run `python3 scripts/02_plot_pca.py`
+3. Run `bash scripts/04_population_fst.sh`
+4. Run `python3 scripts/03_plot_fst.py`
+
+Input data must include the chromosome 22 VCF and matching population metadata. The FST script uses `results/fst/superpop.tsv`.
