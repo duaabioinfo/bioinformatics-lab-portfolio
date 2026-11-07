@@ -6,6 +6,20 @@ A hands-on bioinformatics portfolio focused on applying computational methods to
 
 My academic background is in Molecular Biology and Medical Biology & Genetics (MSc). These projects document my independent development of practical skills in sequencing-data analysis, statistical genomics, research reproducibility, and biological interpretation.
 
+## About the Researcher
+
+**Duaa Abdulmohsin | MSc Medical Biology & Genetics**
+
+Molecular biology and genetics researcher transitioning into computational biology and bioinformatics.
+
+My background combines graduate-level research, experimental gene-expression analysis, statistical methods, and first-author peer-reviewed research published in 2025.
+
+I am developing reproducible bioinformatics workflows that connect sequencing data processing with biological interpretation and research questions.
+
+**Core areas:** Molecular Genetics · NGS Data Analysis · Genomics · Transcriptomics · Metagenomics · Scientific Computing
+
+**Professional profile:** [LinkedIn](https://www.linkedin.com/in/duaa-abdulmohsin)
+
 ## Research Projects
 
 | Project | Research focus | Methods | Status |
