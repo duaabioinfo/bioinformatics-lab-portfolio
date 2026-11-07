@@ -1,6 +1,6 @@
-# Duaa Abdulmohsin | Bioinformatics Research Portfolio
+# Bioinformatics Research Portfolio
 
-**MSc Medical Biology & Genetics | Molecular Biology & Genomics**
+**Duaa Abdulmohsin | MSc Medical Biology & Genetics**
 
 Molecular biology researcher with a background in experimental
 gene-expression research and a first-author publication.
@@ -67,12 +67,12 @@ Investigated cadmium, L-carnitine, and the expression of
 mTOR, Akt1, and Akt2 in rat liver tissue using experimental
 molecular biology and statistical analysis.
 
-**Selected finding:** The overall Akt1 ANOVA was not statistically
-significant (p = 0.113), while a reported pairwise comparison
-between the cadmium-only and cadmium plus L-carnitine groups
-showed a significant difference (p < 0.0001).
-This pairwise result requires cautious interpretation given
-the nonsignificant overall ANOVA and multiple comparisons.
+**Selected finding:** A reported pairwise comparison identified
+a difference in Akt1 expression between the cadmium-only and
+cadmium plus L-carnitine groups (p < 0.0001).
+However, the overall ANOVA was not significant (p = 0.113),
+so this finding requires cautious interpretation.
+
 
 ---
 
