@@ -17,6 +17,20 @@ in human airway smooth muscle cells?
 No raw FASTQ processing or transcript quantification
 was performed in this analysis.
 
+## Original Study and Data Citation
+
+Himes BE et al. (2014). RNA-Seq Transcriptome Profiling
+Identifies CRISPLD2 as a Glucocorticoid Responsive Gene
+that Modulates Cytokine Function in Airway Smooth Muscle
+Cells. PLOS ONE, 9(6), e99625.
+
+- DOI: https://doi.org/10.1371/journal.pone.0099625
+- GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52778
+- Dataset: Bioconductor airway package
+
+This project analyzes published gene-level counts.
+Raw FASTQ processing was not performed.
+
 ## Methods
 
 1. Load the airway count data and sample metadata.
@@ -57,6 +71,12 @@ These counts use adjusted p < 0.05 and |log2FC| >= 1.
 
 ![Top differential expression heatmap](results/figures/heatmap.png)
 
+### Volcano Plot Interpretation
+
+The vertical axis shows -log10 of the unadjusted
+p-value. Highlighted genes are selected using
+adjusted p < 0.05 and |log2 fold change| >= 1.
+
 ## Results and Reproducibility
 
 - [Differential expression table](results/tables/differential_expression.csv)
@@ -87,6 +107,3 @@ or transcript quantification.
 
 Gene expression changes do not independently establish
 downstream mechanisms or clinical effects.
-
-The older cadmium FASTQ download was a separate,
-unfinished workflow and is not part of this analysis.

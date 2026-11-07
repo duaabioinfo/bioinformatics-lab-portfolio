@@ -74,6 +74,6 @@ original chromosome 22 VCF, and matching population metadata.
 See the detailed documentation for prerequisites, recorded
 results, verification, and limitations.
 
-## Reproducibility Documentation
+## Documentation
 
 [Reproducibility Documentation](docs/REPRODUCIBILITY.md)

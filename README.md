@@ -129,6 +129,7 @@ Chromosome 22 genotypes from 2,504 1000 Genomes Phase 3 participants were analyz
 - **Python:** Data processing and scientific visualization
 - **NGS quality control:** FastQC and fastp
 - **Metagenomics:** Bowtie2, SAMtools, Sylph, GTDB
+- **RNA-seq:** R, DESeq2, ggplot2, pheatmap
 - **Population genomics:** PLINK2, LD pruning, PCA, FST
 - **Research practice:** Statistical interpretation,
   scientific documentation, Git and GitHub
