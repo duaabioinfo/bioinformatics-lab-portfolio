@@ -24,13 +24,23 @@ I am developing reproducible bioinformatics workflows that connect sequencing da
 
 **First-author peer-reviewed publication | 2025**
 
-**Research area:** Cadmium toxicity, L-carnitine, and liver gene expression in rat models.
+### Does taking L-Carnitine and Cadmium have an impact on gene expression of the liver tissues from rat models?
 
-Published in *Bangladesh Journal of Medical Science*, Volume 24, Issue 2 (2025).
+*Bangladesh Journal of Medical Science*, 24(2), 614–620 (2025).
 
-This experimental research involved molecular biology, gene-expression analysis, statistical analysis, and scientific interpretation.
+**DOI:** https://doi.org/10.3329/bjms.v24i2.81728
 
-My current bioinformatics work builds on this experimental research background, extending my skills into computational genomics and transcriptomics.
+**Research focus:** Cadmium toxicity, L-carnitine, and the expression of mTOR, Akt1, and Akt2 in rat liver tissue.
+
+**Methods:** RNA extraction, qRT-PCR, statistical analysis, and biological interpretation.
+
+**Key findings:**
+
+- The overall ANOVA for Akt1 was not statistically significant (p = 0.113).
+- A reported pairwise comparison between the cadmium-only and cadmium plus L-carnitine groups showed a significant difference in Akt1 expression (p < 0.0001; t = 6.58).
+- This pairwise finding requires cautious interpretation because the overall ANOVA was nonsignificant and multiple comparisons may affect statistical inference.
+
+**Research significance:** This publication demonstrates my experience in experimental molecular biology, gene-expression analysis, statistical interpretation, and scientific research. It provides a foundation for my transition into computational genomics and transcriptomics.
 
 ---
 
