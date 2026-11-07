@@ -1,84 +1,80 @@
-# Bioinformatics Lab | Research Portfolio
+# Duaa Abdulmohsin | Bioinformatics Research Portfolio
 
-**Reproducible genomic and metagenomic analyses using public sequencing datasets**
+**MSc Medical Biology & Genetics | Molecular Biology & Genomics**
 
-A hands-on bioinformatics portfolio focused on applying computational methods to biological and medical research questions.
+Molecular biology researcher with a background in experimental
+gene-expression research and a first-author publication.
+Currently building practical bioinformatics experience through
+independent analysis of public genomic and sequencing datasets.
 
-My academic background is in Molecular Biology and Medical Biology & Genetics (MSc). These projects document my independent development of practical skills in sequencing-data analysis, statistical genomics, research reproducibility, and biological interpretation.
+**Research areas:** Genomics, transcriptomics, metagenomics,
+molecular genetics, and computational biology.
 
-## Research Highlights
-
-- **First-author publication (2025):** Experimental investigation of cadmium, L-carnitine, and gene expression in rat liver tissue.
-- **Shotgun metagenomics:** Independently processed 27.3 million sequencing reads through quality control, preprocessing, host-reference screening, and microbial profiling.
-- **Population genomics:** Analyzed chromosome 22 genetic variation across 2,504 individuals, including PCA and pairwise FST.
-- **Research reproducibility:** Developed and documented Bash and Python analysis workflows with scientific figures and results.
-
-[View my research publication](https://doi.org/10.3329/bjms.v24i2.81728)
-
----
-
-## About the Researcher
-
-**Duaa Abdulmohsin | MSc Medical Biology & Genetics**
-
-Molecular biology and genetics researcher transitioning into computational biology and bioinformatics.
-
-My background combines graduate-level research, experimental gene-expression analysis, statistical methods, and first-author peer-reviewed research published in 2025.
-
-I am developing reproducible bioinformatics workflows that connect sequencing data processing with biological interpretation and research questions.
-
-**Core areas:** Molecular Genetics · NGS Data Analysis · Genomics · Transcriptomics · Metagenomics · Scientific Computing
-
-**Professional profile:** [LinkedIn](https://www.linkedin.com/in/duaa-abdulmohsin)
-
-## Published Research
-
-**First-author peer-reviewed publication | 2025**
-
-### Does taking L-Carnitine and Cadmium have an impact on gene expression of the liver tissues from rat models?
-
-*Bangladesh Journal of Medical Science*, 24(2), 614–620 (2025).
-
-**DOI:** https://doi.org/10.3329/bjms.v24i2.81728
-
-**Research focus:** Cadmium toxicity, L-carnitine, and the expression of mTOR, Akt1, and Akt2 in rat liver tissue.
-
-**Methods:** RNA extraction, qRT-PCR, statistical analysis, and biological interpretation.
-
-**Key findings:**
-
-- The overall ANOVA for Akt1 was not statistically significant (p = 0.113).
-- A reported pairwise comparison between the cadmium-only and cadmium plus L-carnitine groups showed a significant difference in Akt1 expression (p < 0.0001; t = 6.58).
-- This pairwise finding requires cautious interpretation because the overall ANOVA was nonsignificant and multiple comparisons may affect statistical inference.
-
-**Research significance:** This publication demonstrates my experience in experimental molecular biology, gene-expression analysis, statistical interpretation, and scientific research. It provides a foundation for my transition into computational genomics and transcriptomics.
-
----
-
-## Technical Skills Demonstrated
-
-| Skill | Practical evidence |
-|---|---|
-| Linux & Bash | Reproducible command-line analysis workflows |
-| Python | Data processing, result summaries, and scientific visualizations |
-| NGS quality control | FastQC and fastp reports for shotgun metagenomic reads |
-| Sequence alignment | Bowtie2 and SAMtools for human-reference screening |
-| Metagenomic profiling | Sylph and GTDB R232 taxonomic classification |
-| Population genomics | PLINK2 filtering, LD pruning, PCA, and pairwise FST |
-| Scientific interpretation | Biological conclusions, statistical limitations, and documented assumptions |
-| Version control | Git and GitHub research project organization |
-
-*RNA-seq analysis is in progress and is not presented as a completed workflow.*
+[LinkedIn](https://www.linkedin.com/in/duaa-abdulmohsin)
 
 ---
 
 ## Research Projects
 
-| Project | Research focus | Methods | Status |
-|---|---|---|---|
-| [01 · Human Gut Shotgun Metagenomics](shotgun-metagenomics/) | Microbial community composition in a human gut sample | FastQC, fastp, Bowtie2, SAMtools, Sylph, GTDB | Core analysis completed |
-| [02 · Cadmium Exposure RNA-seq](rnaseq/) | Gene-expression responses to cadmium in human liver-derived cell models | Salmon, DESeq2, pathway analysis | In progress |
-| [03 · Human Population Genomics](population-genetics/) | Genetic structure and allele-frequency differentiation across reference populations | PLINK2, PCA, Weir-Cockerham FST | Core analysis completed |
+### 01 · Human Gut Shotgun Metagenomics
+
+**Status:** Analysis and documentation completed
+
+Processed 27.3 million sequencing reads through quality control,
+read preprocessing, human-reference screening, and taxonomic profiling.
+
+**Tools:** FastQC, fastp, Bowtie2, SAMtools, Sylph, GTDB R232.
+
+[Explore Project 01](shotgun-metagenomics/)
+
+### 02 · Cadmium Exposure RNA-seq
+
+**Status:** In progress
+
+Analysis of gene-expression responses to cadmium exposure in
+human liver-derived cell models using public RNA-seq data.
+
+**Planned analysis:** Salmon quantification, DESeq2 differential
+expression analysis, and biological pathway interpretation.
+
+[Explore Project 02](rnaseq/)
+
+### 03 · Human Population Genomics
+
+**Status:** Analysis and documentation completed
+
+Analyzed chromosome 22 genetic variation from 2,504 participants
+in the 1000 Genomes Project Phase 3, including PCA and pairwise FST.
+
+**Tools:** PLINK2, Python.
+
+[Explore Project 03](population-genetics/)
+
+---
+
+## Published Research
+
+**First-author peer-reviewed publication | 2025**
+
+**Does taking L-Carnitine and Cadmium have an impact on gene
+expression of the liver tissues from rat models?**
+
+*Bangladesh Journal of Medical Science*, 24(2), 614–620.
+
+[Read the publication](https://doi.org/10.3329/bjms.v24i2.81728)
+
+Investigated cadmium, L-carnitine, and the expression of
+mTOR, Akt1, and Akt2 in rat liver tissue using experimental
+molecular biology and statistical analysis.
+
+**Selected finding:** The overall Akt1 ANOVA was not statistically
+significant (p = 0.113), while a reported pairwise comparison
+between the cadmium-only and cadmium plus L-carnitine groups
+showed a significant difference (p < 0.0001).
+This pairwise result requires cautious interpretation given
+the nonsignificant overall ANOVA and multiple comparisons.
+
+---
 
 ## Featured Results
 
@@ -104,20 +100,28 @@ Chromosome 22 genotypes from 2,504 1000 Genomes Phase 3 participants were analyz
 
 [Explore the population genomics project](population-genetics/)
 
+---
+
+## Technical Skills
+
+- **Linux & Bash:** Command-line bioinformatics workflows
+- **Python:** Data processing and scientific visualization
+- **NGS quality control:** FastQC and fastp
+- **Metagenomics:** Bowtie2, SAMtools, Sylph, GTDB
+- **Population genomics:** PLINK2, LD pruning, PCA, FST
+- **Research practice:** Statistical interpretation,
+  scientific documentation, Git and GitHub
+
 ## Reproducibility
 
-Project directories contain analysis scripts, selected outputs, figures, and scientific notes. Large raw sequencing datasets and reference databases are not stored in Git.
+Each completed project includes analysis scripts, selected
+results, figures, documentation, and scientific limitations.
 
-The workflows are intended as transparent, reproducible learning and research exercises. Analysis limitations and dataset provenance are documented within individual projects.
+- [Metagenomics documentation](shotgun-metagenomics/docs/REPRODUCIBILITY.md)
+- [Population genomics documentation](population-genetics/docs/REPRODUCIBILITY.md)
 
-## Research Interests
+Large raw datasets and reference databases are excluded
+from GitHub. RNA-seq analysis is still in progress.
 
-- Molecular genetics and functional genomics
-- Bioinformatics and next-generation sequencing
-- Toxicogenomics and gene expression
-- Human genetic variation
-- Microbiome research
-
-## Scope
-
-All sequencing datasets are publicly available research data. Interpretations are exploratory, and results should not be used for clinical diagnosis.
+All analyses are intended for research and learning,
+not clinical diagnosis.
