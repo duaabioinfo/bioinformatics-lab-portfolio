@@ -44,6 +44,23 @@ I am developing reproducible bioinformatics workflows that connect sequencing da
 
 ---
 
+## Technical Skills Demonstrated
+
+| Skill | Practical evidence |
+|---|---|
+| Linux & Bash | Reproducible command-line analysis workflows |
+| Python | Data processing, result summaries, and scientific visualizations |
+| NGS quality control | FastQC and fastp reports for shotgun metagenomic reads |
+| Sequence alignment | Bowtie2 and SAMtools for human-reference screening |
+| Metagenomic profiling | Sylph and GTDB R232 taxonomic classification |
+| Population genomics | PLINK2 filtering, LD pruning, PCA, and pairwise FST |
+| Scientific interpretation | Biological conclusions, statistical limitations, and documented assumptions |
+| Version control | Git and GitHub research project organization |
+
+*RNA-seq analysis is in progress and is not presented as a completed workflow.*
+
+---
+
 ## Research Projects
 
 | Project | Research focus | Methods | Status |
