@@ -38,16 +38,18 @@ What is the taxonomic composition of the microbial community represented in a pu
 
 The sample originates from a study investigating fecal metagenomes in colorectal cancer cohorts. The clinical status of this specific donor has not yet been established from the reviewed metadata.
 
-## Planned Computational Workflow
+## Computational Workflow
 
-1. Data retrieval — NCBI SRA Toolkit
-2. Raw read quality assessment — FastQC
-3. Read preprocessing — fastp, where justified by QC
-4. Taxonomic profiling — tool and reference database to be selected
-5. Relative abundance analysis
-6. Data visualization and biological interpretation
+1. Retrieve paired-end sequencing reads from NCBI SRA.
+2. Assess read quality with FastQC.
+3. Perform read trimming and filtering with fastp.
+4. Screen against the human GRCh38 reference using Bowtie2.
+5. Process alignment outputs with SAMtools as required.
+6. Perform taxonomic profiling using Sylph and GTDB R232.
+7. Summarize taxa and visualize the 20 most abundant entries.
 
-
+Detailed methodology, analysis scripts, and limitations are
+available in the project documentation.
 
 ## Scientific Considerations
 
@@ -55,7 +57,7 @@ The sample originates from a study investigating fecal metagenomes in colorectal
 - Relative abundance estimates may be affected by genome length, sequencing depth, and unclassified reads.
 - Detection of microbial DNA does not establish microbial viability or activity.
 - A single sample cannot establish disease associations or population-level differences.
-- Preprocessing decisions will be based on observed sequencing quality.
+- Preprocessing decisions were guided by observed sequencing quality.
 
 ## Results
 
@@ -105,9 +107,9 @@ available in `results/`.
 Large raw sequencing files and reference databases are excluded
 from the public repository.
 
-### Project status
+### Project Status
 
-Core analysis completed. Scientific review and documentation ongoing.
+Core analysis and project documentation completed.
 
 ## Sequencing Quality and Host Screening
 

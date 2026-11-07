@@ -52,4 +52,4 @@ This unusually low alignment rate requires cautious
 interpretation and does not establish the absence
 of human-origin sequences.
 
-[Full quality-control assessment](results/fastp/qc_summary.md)
+[Full quality-control assessment](fastp/qc_summary.md)

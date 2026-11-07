@@ -43,15 +43,7 @@ The PCA shows population-associated clustering and overlap. The highest observed
 
 ![Pairwise FST](results/figures/chr22_fst_heatmap.svg)
 
-## Reproduce the Analysis
 
-The primary workflow and plotting scripts are stored in `scripts/`:
-
-- `01_population_pca.sh`
-- `02_plot_pca.py`
-- `03_plot_fst.py`
-
-Requires PLINK2, Python 3, the original Phase 3 chromosome 22 VCF, and the matching sample metadata panel.
 
 ## Limitations
 
@@ -65,16 +57,22 @@ Requires PLINK2, Python 3, the original Phase 3 chromosome 22 VCF, and the match
 
 [Analysis summary](results/project3_summary.md)
 
-## FST Reproduction
 
-Run from the population-genetics directory:
 
-1. Run `bash scripts/01_population_pca.sh`
-2. Run `python3 scripts/02_plot_pca.py`
-3. Run `bash scripts/04_population_fst.sh`
-4. Run `python3 scripts/03_plot_fst.py`
+## Reproduce the Analysis
 
-Input data must include the chromosome 22 VCF and matching population metadata. The FST script uses `results/fst/superpop.tsv`.
+The analysis scripts are:
+
+1. `scripts/01_population_pca.sh`
+2. `scripts/02_plot_pca.py`
+3. `scripts/04_population_fst.sh`
+4. `scripts/03_plot_fst.py`
+
+The workflow requires PLINK2, Python dependencies, the
+original chromosome 22 VCF, and matching population metadata.
+
+See the detailed documentation for prerequisites, recorded
+results, verification, and limitations.
 
 ## Reproducibility Documentation
 
