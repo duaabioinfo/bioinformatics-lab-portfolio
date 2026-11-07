@@ -59,12 +59,52 @@ Software versions, commands, parameters, and reference database details will be 
 
 ## Results
 
-Analysis pending. Results will be added after successful workflow execution and validation.
+**Status: Core computational analysis completed**
 
-## Reproducibility
+### Sequencing and taxonomic profiling
 
-Analysis scripts, environment specifications, source accessions, and selected outputs will be maintained in this repository. Large raw sequencing files will not be committed to GitHub.
+Human gut shotgun metagenomic sample SRR6915205 was processed
+through read quality control, trimming, host-read removal,
+and taxonomic profiling using Sylph with GTDB R232.
 
-## Project Status
+The taxonomic profile contained 273 species-level entries.
 
-In progress — dataset selected; computational analysis pending.
+### Most abundant assigned taxa
+
+| Species | Relative abundance |
+|---|---:|
+| Alistipes putredinis | 7.65% |
+| Prevotella sp905214625 | 7.42% |
+| Phocaeicola vulgatus | 5.57% |
+| Bacteroides uniformis | 4.87% |
+| Bacteroides stercoris_A | 4.64% |
+
+### Visualization
+
+![Top 20 microbial species](results/figures/top20_species.svg)
+
+### Biological interpretation
+
+The sample contains a diverse gut-associated microbial community.
+These findings describe the taxonomic composition of one sample
+and cannot establish disease associations or clinical diagnoses.
+
+### Limitations
+
+- Single-sample analysis without comparison groups.
+- Taxonomic estimates depend on database coverage.
+- Relative abundances are estimates, not absolute cell counts.
+- The individual donor's clinical status has not been confirmed.
+
+### Reproducibility
+
+The `scripts/` directory contains the computational workflow.
+Selected quality reports, figures, and taxonomic outputs are
+available in `results/`.
+
+Large raw sequencing files and reference databases are excluded
+from the public repository.
+
+### Project status
+
+Core analysis completed. Scientific review and documentation ongoing.
