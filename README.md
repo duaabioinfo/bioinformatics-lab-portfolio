@@ -27,15 +27,20 @@ read preprocessing, human-reference screening, and taxonomic profiling.
 
 [Explore Project 01](shotgun-metagenomics/)
 
-### 02 · Cadmium Exposure RNA-seq
+### 02 · Dexamethasone-Induced Gene Expression | RNA-seq
 
-**Status:** In progress
+**Status:** Analysis and documentation completed
 
-Analysis of gene-expression responses to cadmium exposure in
-human liver-derived cell models using public RNA-seq data.
+Analyzed eight human airway smooth muscle RNA-seq samples
+using gene-level counts from Bioconductor's airway dataset.
 
-**Planned analysis:** Salmon quantification, DESeq2 differential
-expression analysis, and biological pathway interpretation.
+Identified **1,018 differentially expressed genes** after
+accounting for cell-line effects.
+
+**Tools:** R, DESeq2, airway, ggplot2, pheatmap.
+
+**Scope:** Differential expression from published counts;
+raw FASTQ processing was not performed.
 
 [Explore Project 02](rnaseq/)
 
@@ -88,6 +93,22 @@ Shotgun metagenomic reads were processed, screened for human-origin reads, and p
 
 [Explore the metagenomics project](shotgun-metagenomics/)
 
+### 02 · Dexamethasone RNA-seq
+
+Eight RNA-seq samples were analyzed with DESeq2,
+adjusting for the four cell lines.
+
+**Selected finding:** 1,018 genes met the differential
+expression thresholds (adjusted p < 0.05 and |log2FC| >= 1).
+
+![RNA-seq PCA](rnaseq/results/figures/pca.png)
+
+![RNA-seq Volcano Plot](rnaseq/results/figures/volcano.png)
+
+![RNA-seq Heatmap](rnaseq/results/figures/heatmap.png)
+
+[Explore the RNA-seq project](rnaseq/)
+
 ### 03 · Human Population Genomics
 
 Chromosome 22 genotypes from 2,504 1000 Genomes Phase 3 participants were analyzed to investigate patterns of population genetic structure and differentiation.
@@ -121,7 +142,7 @@ results, figures, documentation, and scientific limitations.
 - [Population genomics documentation](population-genetics/docs/REPRODUCIBILITY.md)
 
 Large raw datasets and reference databases are excluded
-from GitHub. RNA-seq analysis is still in progress.
+from GitHub. RNA-seq differential expression analysis is complete.
 
 All analyses are intended for research and learning,
 not clinical diagnosis.

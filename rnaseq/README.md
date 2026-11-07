@@ -1,31 +1,92 @@
-# Cadmium Exposure | RNA-seq Analysis
-
-**Status: Data acquisition and analysis in progress**
+# Dexamethasone-Induced Gene Expression | Bulk RNA-seq
 
 ## Research Question
 
-How does cadmium exposure influence gene expression in human liver-derived cell models?
+How does dexamethasone treatment affect gene expression
+in human airway smooth muscle cells?
 
-## Study
+## Dataset
 
-- Public study: E-MTAB-11670
-- Models selected: Hep-G2 and HepaRG
-- Conditions: Cadmium exposure and vehicle controls
-- Planned analysis: Three cadmium-exposed and six control runs per cell model
+- Source: Bioconductor `airway` package
+- Samples: 8
+- Conditions: 4 treated and 4 untreated
+- Biological structure: 4 cell lines, each represented
+  in both conditions
+- Input: Previously quantified gene-level RNA-seq counts
 
-## Planned Workflow
+No raw FASTQ processing or transcript quantification
+was performed in this analysis.
 
-1. Verify FASTQ integrity and sequencing quality.
-2. Quantify transcript expression using Salmon and GENCODE v48.
-3. Summarize transcript-level estimates to genes.
-4. Analyze differential expression with DESeq2 separately by cell model.
-5. Explore enriched biological processes when supported by the results.
-6. Produce figures and critically interpret findings.
+## Methods
 
-## Important Considerations
+1. Load the airway count data and sample metadata.
+2. Set untreated samples as the reference condition.
+3. Filter genes with fewer than 10 total counts.
+4. Fit a DESeq2 model with design `~ cell + dex`.
+5. Test treated versus untreated expression differences.
+6. Apply Benjamini-Hochberg FDR correction.
+7. Identify genes with adjusted p < 0.05 and
+   absolute log2 fold change >= 1.
+8. Generate PCA, volcano plot and heatmap.
 
-These are cultured cell models, not human participants. Their results cannot directly establish human cancer risk or the consequences of dietary cadmium exposure.
+### Tools
 
-The experimental design, sample metadata, read quality, and statistical assumptions must be reviewed before final interpretation.
+R, DESeq2, airway, ggplot2 and pheatmap.
 
-Results will be added after successful analysis.
+## Main Results
+
+- Samples: 8
+- Genes after filtering: 22,369
+- Differentially expressed genes: 1,018
+- Upregulated genes: 531
+- Downregulated genes: 487
+
+These counts use adjusted p < 0.05 and |log2FC| >= 1.
+
+## Figures
+
+### PCA
+
+![RNA-seq PCA](results/figures/pca.png)
+
+### Volcano Plot
+
+![Volcano plot](results/figures/volcano.png)
+
+### Heatmap
+
+![Top differential expression heatmap](results/figures/heatmap.png)
+
+## Results and Reproducibility
+
+- [Differential expression table](results/tables/differential_expression.csv)
+- [Sample metadata](results/tables/sample_metadata.csv)
+- [Analysis summary](results/analysis_summary.md)
+- [Software session information](results/session_info.txt)
+- [Full analysis script](scripts/airway_deseq2.R)
+
+Run from the `rnaseq` directory with an R environment
+containing DESeq2, airway, ggplot2 and pheatmap:
+
+`Rscript scripts/airway_deseq2.R`
+
+The analysis uses the count data distributed with
+the Bioconductor airway package.
+
+## Scientific Limitations
+
+This is a small, paired-by-cell-line experimental
+dataset. The DESeq2 design accounts for cell-line effects.
+
+Differential expression results indicate statistical
+associations with treatment under this model.
+
+The project begins with published gene counts, so it
+does not demonstrate raw read quality control, alignment
+or transcript quantification.
+
+Gene expression changes do not independently establish
+downstream mechanisms or clinical effects.
+
+The older cadmium FASTQ download was a separate,
+unfinished workflow and is not part of this analysis.
