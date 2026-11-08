@@ -143,9 +143,10 @@ results, figures, documentation, and scientific limitations.
 
 - [Metagenomics documentation](shotgun-metagenomics/docs/REPRODUCIBILITY.md)
 - [Population genomics documentation](population-genetics/docs/REPRODUCIBILITY.md)
+- [RNA-seq documentation](rnaseq/README.md)
 
 Large raw datasets and reference databases are excluded
-from GitHub. RNA-seq differential expression analysis is complete.
+from GitHub.
 
 All analyses are intended for research and learning,
 not clinical diagnosis.
